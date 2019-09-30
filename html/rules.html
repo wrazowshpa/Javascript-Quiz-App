@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rules for Weakest Link</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/rules.css"/>
+</head>
+<body>
+	
+	<div id="rules">
+		<div id="goBack">
+		<button id="homepageButton">Go Back</button>
+		</div>
+		<div>
+			<h1 id="round1">Round 1</h1>
+			<ul id="ulRound1">
+				<li>You have <strong>120 seconds</strong> or 2 minutes to answer as many questions as you can</li>
+				<li>You will be able to bank at most $500,000</li>
+				<li>Every correct answer will move the amount made by the next question by one level</li>
+				<li>If a question is answered wrong the money is lost and the money award for that question will be reduced to zero again</li>
+				<li>Before a question is asked the player is allowed to bank the money they are at a given point</li>
+				<li>Money cannot be banked at $0</li>
+				<li>Once money is banked the amount for that question will start from zero again</li>
+				<li>For this round you can only bank at most $500,000</li>
+				<li>Once the timer runs out the player will automatically go to round 2 with all money banked</li>
+				<li>If the player banks $500,000 before the timer runs out they will automatically go onto round 2</li>
+			</ul>
+			<h1 id="round2">Round 2</h1>
+			<ul id="ulRound2">
+				<li>All the money banked in the first round continues onto the second round</li>
+				<li>Required to answer a series of questions within <strong>90 seconds</strong></li>
+				<li>The player can bank at most $1,000,000</li>
+				<li>Same rules apply for round 1 apply in round 2 in terms of the process of earning money and banking it</li>
+				<li>For this round you can bank at most $1,000,000</li>
+				<li>At the end of the timer player will will only go to round 3 if some money is banked</li>
+			</ul>
+			<h1 id="round3">Round 3</h1>
+			<ul>
+				<li>The player will be asked a series of questions within <strong>1 minute</strong></li>
+				<li>If the player answers all questions correctly they player will win the game and walk away with all the money that was banked</li>
+				<li>Any question answered incorrectly will automatically lose the game</li>
+			</ul>
+			<h1 id="generalRules">General Rules</h1>
+			<ul id="ulRound3">
+				<li>The game will randomly select a question</li>
+				<li>No questions will be repeated</li>
+				<li>The timer will be displayed at the bottom right of the quiz</li>
+				<li>Bank area will be at the bottom left of the screen</li>
+				<li>At the beginning of the game you are required to enter name and gender</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		document.getElementById("homepageButton").onclick = function () {
+	        location.href = "../index.html";
+	    };
+	</script>
+</body>
+</html>

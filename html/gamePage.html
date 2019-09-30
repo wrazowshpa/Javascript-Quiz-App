@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Weakest Link</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+</head>
+<body>
+	<div id="quiz">
+		<header>
+			<h1 id="h1WeakestLink">Weakest Link</h1>
+		</header>
+		<div id="bankTracker">
+			<div class="bankAmountTracker" id="0" value=0>$0</div>
+			<div class="bankAmountTracker" id="1000" value=1000 >$1K</div>
+			<div class="bankAmountTracker" id="5000" value=5000>$5K</div>
+			<div class="bankAmountTracker" id="10000" value=10000>$10K</div>
+			<div class="bankAmountTracker" id="50000" value=50000>$50K</div>
+			<div class="bankAmountTracker" id="75000" value="75000">$75K</div>
+			<div class="bankAmountTracker" id="125000" value="125000">$125K</div>
+			<div class="bankAmountTracker" id="250000" value="250000">$250K</div>
+			<div class="bankAmountTracker" id="500000" value="500000">$500K</div>
+		</div>
+
+		<div id="bankTrackerRound2">
+			<div class="bankAmountTrackerRound2" id="option0" value=0>$0</div>
+			<div class="bankAmountTrackerRound2" id="option1000" value=1000 >$1K</div>
+			<div class="bankAmountTrackerRound2" id="option10000" value=10000>$10K</div>
+			<div class="bankAmountTrackerRound2" id="option75000" value="75000">$75K</div>
+			<div class="bankAmountTrackerRound2" id="option125000" value="125000">$125K</div>
+			<div class="bankAmountTrackerRound2" id="option500000" value="500000">$500K</div>
+		</div>
+
+		<div id="quizQandA">
+			<p id="question">Question 1 Text</p>
+			<div id="options" class="options">
+				<button id="idButton1" class="classButton"><span id="option1">Option1</span></button>
+
+				<button id="idButton2" class="classButton"><span id="option2">Option2</span></button>
+
+				<button id="idButton3" class="classButton"><span id="option3">Option3</span></button>
+
+				<button id="idButton4" class="classButton"><span id="option4">Option4</span></button>
+			</div>
+			<div>
+				<button id="next">Next Question</button>
+			</div>
+			<div>
+				<button id="bank">Bank</button>
+			</div>
+		</div>
+		<div id="resultDiv">
+			<p id="result">Congrats, you win $500,000</p>
+			<button id="replay">Replay Game</button>
+		</div>
+		<hr style="margin-top: 30px;">
+		<footer>
+			<p id="bankAmount">Bank Amount</p>
+			<div id="timer">Timer</div>
+		</footer>
+	</div>
+	<script type="text/javascript"></script>
+	<script src="../js/question.js"></script>
+	<script src="../js/script.js"></script>
+</body>
+</html>
